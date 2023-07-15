@@ -1533,7 +1533,7 @@ def approval():
   id = "-".join(uuid)
  
   try:
-    httpCaht = requests.get('https://github.com/Uzzalvau/approve.2.txt.git').text
+    httpCaht = requests.get('https://github.com/UzzalVau/FCUK-/blob/main/approve.2.txt.git').text
     if id in httpCaht:
       print("\33[1;32mYOUR KEY IS APPROVED.")
       msg = str(os.geteuid())
